@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-r from-[#535354] via-[#2f424b] to-[#072f40];
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  overscroll-behavior: none; /* 🔒 disables stretch/bounce */
+}
+
